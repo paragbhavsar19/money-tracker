@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.rs-dropdown-menu {
+  padding: 6px 6px;
+}
+
+.rs-dropdown-menu .rs-dropdown-item:hover {
+  border-radius: 3px;
+  background: rgb(0 0 0 / 6%);
+}
+
+.rs-table-row-header .rs-checkbox-control {
+  top: 3px;
+}
+
+.rs-table-cell {
+  @apply bg-[#ffffff];
+}
+
+.rs-table-cell-header .rs-table-cell-content {
+  background: #8080800a;
+}
+
+.date-range-picker .rs-picker-input-group {
+  overflow: hidden;
+}
+
+.date-range-picker .rs-input-group:focus-within {
+  outline: none;
+  border-color: #e5e7eb;
+}
+.date-range-picker .rs-picker-input-group:hover {
+  border-color: #e5e7eb;
+}
+
+.date-range-picker .rs-picker-input-group input {
+  overflow: hidden;
+}
+
+.date-range-picker .rs-picker-input-group input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:hover {
+  @apply border border-gray-200;
+}
+
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle-active {
+  @apply border border-gray-200;
+}
+.rs-picker-toggle-active {
+  @apply border border-gray-200 shadow-none;
+}
+
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value,
+.rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value {
+  @apply text-black;
+}
+
+input {
+  @apply border border-gray-200 focus:border-gray-200 focus:shadow-none focus:ring-0;
+}
+
+[type="text"]:focus,
+[type="email"]:focus,
+[type="url"]:focus,
+[type="password"]:focus,
+[type="number"]:focus,
+[type="date"]:focus,
+[type="datetime-local"]:focus,
+[type="month"]:focus,
+[type="search"]:focus,
+[type="tel"]:focus,
+[type="time"]:focus,
+[type="week"]:focus,
+[multiple]:focus,
+textarea:focus,
+select:focus {
+  @apply border border-gray-200 focus:border-gray-200 focus:shadow-none focus:ring-0;
+}
+
+[type="text"]:focus:focus {
+  @apply ring-0 shadow-none;
+}
+
+.rs-input-group:not(.rs-input-group-disabled):hover {
+  @apply border border-gray-200;
+}
+
+.rs-input-group:focus-within,
+.rs-input-group:not(.rs-input-group-disabled).rs-input-group-focus {
+  @apply outline-none;
+}
+
+.rs-pagination-group-skip {
+  @apply hidden;
+}

@@ -1,0 +1,447 @@
+{
+  "initialExpenses": [
+    {
+      "id": 1,
+      "subject": "Groceries",
+      "merchant": "Supermarket",
+      "amount": 50.75,
+      "date": "2024-01-01",
+      "category": "Food"
+    },
+    {
+      "id": 2,
+      "subject": "Gas",
+      "merchant": "Gas Station",
+      "amount": 40.0,
+      "date": "2024-01-02",
+      "category": "Transportation"
+    },
+    {
+      "id": 3,
+      "subject": "Electric Bill",
+      "merchant": "Utility Company",
+      "amount": 120.5,
+      "date": "2024-01-03",
+      "category": "Housing"
+    },
+    {
+      "id": 4,
+      "subject": "Movie Tickets",
+      "merchant": "Cinema",
+      "amount": 30.0,
+      "date": "2024-01-04",
+      "category": "Entertainment"
+    },
+    {
+      "id": 5,
+      "subject": "Coffee",
+      "merchant": "Cafe",
+      "amount": 15.0,
+      "date": "2024-01-05",
+      "category": "Food"
+    },
+    {
+      "id": 6,
+      "subject": "Rent",
+      "merchant": "Landlord",
+      "amount": 1500.0,
+      "date": "2024-01-06",
+      "category": "Housing"
+    },
+    {
+      "id": 7,
+      "subject": "Internet Bill",
+      "merchant": "ISP",
+      "amount": 60.0,
+      "date": "2024-01-07",
+      "category": "Housing"
+    },
+    {
+      "id": 8,
+      "subject": "Lunch",
+      "merchant": "Restaurant",
+      "amount": 25.0,
+      "date": "2024-01-08",
+      "category": "Food"
+    },
+    {
+      "id": 9,
+      "subject": "Gym Membership",
+      "merchant": "Gym",
+      "amount": 50.0,
+      "date": "2024-01-09",
+      "category": "Health"
+    },
+    {
+      "id": 10,
+      "subject": "Car Insurance",
+      "merchant": "Insurance Company",
+      "amount": 120.0,
+      "date": "2024-01-10",
+      "category": "Transportation"
+    },
+    {
+      "id": 11,
+      "subject": "Dinner",
+      "merchant": "Restaurant",
+      "amount": 40.0,
+      "date": "2024-01-11",
+      "category": "Food"
+    },
+    {
+      "id": 12,
+      "subject": "Phone Bill",
+      "merchant": "Phone Company",
+      "amount": 80.0,
+      "date": "2024-01-12",
+      "category": "Communication"
+    },
+    {
+      "id": 13,
+      "subject": "Clothing",
+      "merchant": "Department Store",
+      "amount": 100.0,
+      "date": "2024-01-13",
+      "category": "Shopping"
+    },
+    {
+      "id": 14,
+      "subject": "Travel",
+      "merchant": "Airline",
+      "amount": 500.0,
+      "date": "2024-01-14",
+      "category": "Travel"
+    },
+    {
+      "id": 15,
+      "subject": "Subscription",
+      "merchant": "Streaming Service",
+      "amount": 15.0,
+      "date": "2024-01-15",
+      "category": "Entertainment"
+    },
+    {
+      "id": 16,
+      "subject": "Pet Food",
+      "merchant": "Pet Store",
+      "amount": 30.0,
+      "date": "2024-01-16",
+      "category": "Pets"
+    },
+    {
+      "id": 17,
+      "subject": "Home Decor",
+      "merchant": "Home Goods",
+      "amount": 75.0,
+      "date": "2024-01-17",
+      "category": "Housing"
+    },
+    {
+      "id": 18,
+      "subject": "Gift",
+      "merchant": "Gift Shop",
+      "amount": 50.0,
+      "date": "2024-01-18",
+      "category": "Gifts"
+    },
+    {
+      "id": 19,
+      "subject": "Furniture",
+      "merchant": "Furniture Store",
+      "amount": 200.0,
+      "date": "2024-01-19",
+      "category": "Housing"
+    },
+    {
+      "id": 20,
+      "subject": "Appliance Repair",
+      "merchant": "Repair Service",
+      "amount": 100.0,
+      "date": "2024-01-20",
+      "category": "Housing"
+    },
+    {
+      "id": 21,
+      "subject": "Car Maintenance",
+      "merchant": "Mechanic",
+      "amount": 200.0,
+      "date": "2024-01-21",
+      "category": "Transportation"
+    },
+    {
+      "id": 22,
+      "subject": "Books",
+      "merchant": "Bookstore",
+      "amount": 50.0,
+      "date": "2024-01-22",
+      "category": "Education"
+    },
+    {
+      "id": 23,
+      "subject": "Medical Bill",
+      "merchant": "Medical Center",
+      "amount": 200.0,
+      "date": "2024-01-23",
+      "category": "Health"
+    },
+    {
+      "id": 24,
+      "subject": "Cable Bill",
+      "merchant": "Cable Company",
+      "amount": 100.0,
+      "date": "2024-01-24",
+      "category": "Entertainment"
+    },
+    {
+      "id": 25,
+      "subject": "Gasoline",
+      "merchant": "Gas Station",
+      "amount": 40.0,
+      "date": "2024-01-25",
+      "category": "Transportation"
+    },
+    {
+      "id": 26,
+      "subject": "Coffee",
+      "merchant": "Cafe",
+      "amount": 15.0,
+      "date": "2024-01-26",
+      "category": "Food"
+    },
+    {
+      "id": 27,
+      "subject": "Gym Membership",
+      "merchant": "Gym",
+      "amount": 50.0,
+      "date": "2024-01-27",
+      "category": "Health"
+    },
+    {
+      "id": 28,
+      "subject": "Lunch",
+      "merchant": "Restaurant",
+      "amount": 25.0,
+      "date": "2024-01-28",
+      "category": "Food"
+    },
+    {
+      "id": 29,
+      "subject": "Dinner",
+      "merchant": "Restaurant",
+      "amount": 40.0,
+      "date": "2024-01-29",
+      "category": "Food"
+    },
+    {
+      "id": 30,
+      "subject": "Phone Bill",
+      "merchant": "Phone Company",
+      "amount": 80.0,
+      "date": "2024-01-30",
+      "category": "Communication"
+    },
+    {
+      "id": 31,
+      "subject": "Subscription",
+      "merchant": "Streaming Service",
+      "amount": 15.0,
+      "date": "2024-01-31",
+      "category": "Entertainment"
+    },
+    {
+      "id": 32,
+      "subject": "Pet Food",
+      "merchant": "Pet Store",
+      "amount": 30.0,
+      "date": "2024-02-01",
+      "category": "Pets"
+    },
+    {
+      "id": 33,
+      "subject": "Gift",
+      "merchant": "Gift Shop",
+      "amount": 50.0,
+      "date": "2024-02-02",
+      "category": "Gifts"
+    },
+    {
+      "id": 34,
+      "subject": "Clothing",
+      "merchant": "Department Store",
+      "amount": 100.0,
+      "date": "2024-02-03",
+      "category": "Shopping"
+    },
+    {
+      "id": 35,
+      "subject": "Travel",
+      "merchant": "Airline",
+      "amount": 500.0,
+      "date": "2024-02-04",
+      "category": "Travel"
+    },
+    {
+      "id": 36,
+      "subject": "Internet Bill",
+      "merchant": "ISP",
+      "amount": 60.0,
+      "date": "2024-02-05",
+      "category": "Housing"
+    },
+    {
+      "id": 37,
+      "subject": "Groceries",
+      "merchant": "Supermarket",
+      "amount": 50.75,
+      "date": "2024-02-06",
+      "category": "Food"
+    },
+    {
+      "id": 38,
+      "subject": "Electric Bill",
+      "merchant": "Utility Company",
+      "amount": 120.5,
+      "date": "2024-02-07",
+      "category": "Housing"
+    },
+    {
+      "id": 39,
+      "subject": "Car Insurance",
+      "merchant": "Insurance Company",
+      "amount": 120.0,
+      "date": "2024-02-08",
+      "category": "Transportation"
+    },
+    {
+      "id": 40,
+      "subject": "Home Decor",
+      "merchant": "Home Goods",
+      "amount": 75.0,
+      "date": "2024-02-09",
+      "category": "Housing"
+    },
+    {
+      "id": 41,
+      "subject": "Furniture",
+      "merchant": "Furniture Store",
+      "amount": 200.0,
+      "date": "2024-02-10",
+      "category": "Housing"
+    },
+    {
+      "id": 42,
+      "subject": "Appliance Repair",
+      "merchant": "Repair Service",
+      "amount": 100.0,
+      "date": "2024-02-11",
+      "category": "Housing"
+    },
+    {
+      "id": 43,
+      "subject": "Car Maintenance",
+      "merchant": "Mechanic",
+      "amount": 200.0,
+      "date": "2024-02-12",
+      "category": "Transportation"
+    },
+    {
+      "id": 44,
+      "subject": "Books",
+      "merchant": "Bookstore",
+      "amount": 50.0,
+      "date": "2024-02-13",
+      "category": "Education"
+    },
+    {
+      "id": 45,
+      "subject": "Medical Bill",
+      "merchant": "Medical Center",
+      "amount": 200.0,
+      "date": "2024-02-14",
+      "category": "Health"
+    },
+    {
+      "id": 46,
+      "subject": "Cable Bill",
+      "merchant": "Cable Company",
+      "amount": 100.0,
+      "date": "2024-02-15",
+      "category": "Entertainment"
+    },
+    {
+      "id": 47,
+      "subject": "Gasoline",
+      "merchant": "Gas Station",
+      "amount": 40.0,
+      "date": "2024-02-16",
+      "category": "Transportation"
+    },
+    {
+      "id": 48,
+      "subject": "Coffee",
+      "merchant": "Cafe",
+      "amount": 15.0,
+      "date": "2024-02-17",
+      "category": "Food"
+    },
+    {
+      "id": 49,
+      "subject": "Gym Membership",
+      "merchant": "Gym",
+      "amount": 50.0,
+      "date": "2024-02-18",
+      "category": "Health"
+    },
+    {
+      "id": 50,
+      "subject": "Lunch",
+      "merchant": "Restaurant",
+      "amount": 25.0,
+      "date": "2024-02-19",
+      "category": "Food"
+    }
+  ],
+
+  "categories": [
+    "Invest",
+    "Shopping",
+    "Food",
+    "Telephone",
+    "Entertainment",
+    "Education",
+    "Beauty",
+    "Sport",
+    "Social",
+    "Transportation",
+    "Clothing",
+    "Car",
+    "Cigarette",
+    "Electronics",
+    "Travel",
+    "Health",
+    "Pet",
+    "Repair",
+    "Housing",
+    "Home",
+    "Gifts",
+    "Donate",
+    "Lottery",
+    "Snacks",
+    "Child",
+    "Vegetable",
+    "Fruit",
+    "Salary",
+    "Investments",
+    "Awards",
+    "Others"
+  ],
+
+  "incomeCategories": [
+    "Salary",
+    "Bank",
+    "Cashback",
+    "Family",
+    "Stock Market",
+    "Others"
+  ]
+}
